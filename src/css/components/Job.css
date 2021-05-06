@@ -1,0 +1,207 @@
+.Job {
+  padding: 0 45px 0 0;
+  margin-right: 40px;
+  width: 33%;
+  border-right: 1px solid #aaaaaa;
+}
+
+.Job__Heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Job__Heading--title {
+  font: normal normal bold 20px/32px Manrope, sans-serif;
+  letter-spacing: 0px;
+  color: #276ffb;
+}
+
+.Job__Heading--time {
+  font: normal normal medium 18px/24px Manrope, sans-serif;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 0.6;
+}
+
+.Job__Info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.Job__Info--company {
+  font: normal normal medium 20px/27px Manrope, sans-serif;
+  letter-spacing: 0px;
+  color: #141414;
+}
+
+.Job__Info--location {
+  font: normal normal medium 20px/27px Manrope, sans-serif;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 0.6;
+  margin-left: 20px;
+}
+
+.Job__Details {
+  font: normal normal medium 20px/27px Manrope, sans-serif;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 0.6;
+  margin-top: 28px;
+}
+
+.Job__Pay {
+  font: normal normal medium 20px/27px Manrope, sans-serif;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 0.6;
+}
+
+.Job__More {
+  float: right;
+  transform: translateY(-10px);
+  height: 40px;
+  width: 40px;
+  background: transparent linear-gradient(90deg, #266efd 0%, #3876f1 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 3px 17px #3876f194;
+  border-radius: 5px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Job__More img {
+  transition: all;
+  transition-duration: 200ms;
+}
+
+.Job__More img:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1000px) {
+  .Job {
+    padding: 0 20px 0 0;
+    margin-right: 20px;
+  }
+
+  .Job__Heading--title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .Job__Heading--time {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .Job__Info--location {
+    margin-left: 15px;
+  }
+
+  .Job__Details {
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .Job__Pay {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .Job__More {
+    transform: translateX(20px);
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Job {
+    padding: 0 20px 0 0;
+    margin-right: 20px;
+  }
+
+  .Job__Heading--title {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .Job__Heading--time {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .Job__Info--company {
+    font-size: 14px;
+  }
+  .Job__Info--location {
+    margin-left: 15px;
+    font-size: 14px;
+  }
+
+  .Job__Details {
+    font-size: 13px;
+    margin-top: 18px;
+  }
+
+  .Job__Pay {
+    font-size: 14px;
+  }
+
+  .Job__More {
+    transform: translateX(20px);
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Job {
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+  }
+
+  .Job__Heading--title {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .Job__Heading--time {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .Job__Info--company {
+    font-size: 14px;
+  }
+  .Job__Info--location {
+    margin-left: 15px;
+    font-size: 14px;
+  }
+
+  .Job__Details {
+    font-size: 13px;
+    margin-top: 18px;
+  }
+
+  .Job__Pay {
+    font-size: 14px;
+  }
+
+  .Job__More {
+    height: 25px;
+    width: 25px;
+    transform: translate(-10%, -10%);
+  }
+
+  .Job__More img {
+    height: 10px;
+    width: 10px;
+  }
+}

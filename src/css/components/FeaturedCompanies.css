@@ -1,0 +1,124 @@
+.FeaturedCompanies {
+  padding: 70px 140px 0 140px;
+}
+
+.FeaturedCompanies__Heading {
+  font: normal normal bold 48px/64px Manrope, sans-serif;
+  letter-spacing: 0px;
+  color: #141414;
+}
+
+.FeaturedCompanies__Companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 200px;
+}
+
+.company-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 90px;
+  border: 1px solid #b9b9b9;
+  border-radius: 87px;
+}
+
+.company-name {
+  text-align: center;
+  font: normal normal bold 16px/32px Manrope, sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.FeaturedCompanies__Companies--company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .FeaturedCompanies {
+    padding: 5% 5% 0 5%;
+  }
+
+  .FeaturedCompanies__Heading {
+    font-size: 38px;
+    line-height: 54px;
+  }
+
+  .FeaturedCompanies__Companies {
+    margin-top: 25px;
+  }
+
+  .company-image {
+    height: 70px;
+    width: 70px;
+  }
+
+  .company-name {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .FeaturedCompanies {
+    padding: 5% 5% 0 5%;
+  }
+
+  .FeaturedCompanies__Heading {
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .FeaturedCompanies__Companies {
+    margin-top: 20px;
+  }
+
+  .company-image {
+    height: 50px;
+    width: 50px;
+  }
+
+  .company-name {
+    font-size: 12px;
+    margin-top: 6px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .FeaturedCompanies__Companies {
+    flex-wrap: wrap;
+  }
+
+  .FeaturedCompanies__Heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .FeaturedCompanies__Companies {
+    margin-top: 20px;
+  }
+
+  .FeaturedCompanies__Companies--company {
+    width: 23%;
+  }
+
+  .company-image {
+    height: 50px;
+    width: 50px;
+  }
+  .company-image img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .company-name {
+    font-size: 10px;
+    margin-top: 6px;
+  }
+}

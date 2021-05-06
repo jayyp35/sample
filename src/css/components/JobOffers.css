@@ -1,0 +1,93 @@
+.JobOffers {
+  padding: 70px 140px 0 140px;
+}
+
+.JobOffers__Heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.JobOffers__Heading--left {
+  font: normal normal bold 48px/64px Manrope, sans-serif;
+  letter-spacing: 0px;
+  color: #141414;
+}
+
+.JobOffers__Heading--right {
+  font: normal normal bold 18px/24px Manrope, sans-serif;
+  letter-spacing: 0px;
+  color: #276ffb;
+  display: flex;
+  align-items: center;
+}
+
+.JobOffers__Heading--right img {
+  margin-left: 10px;
+  transition: all;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+.JobOffers__Heading--right img:hover {
+  transform: scale(1.2);
+}
+
+.JobOffers__Jobs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1000px) {
+  .JobOffers {
+    padding: 5% 5% 0 5%;
+  }
+
+  .JobOffers__Heading--left {
+    font-size: 38px;
+    line-height: 54px;
+  }
+
+  .JobOffers__Heading--right {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .JobOffers__Heading--left {
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .JobOffers__Heading--right {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .JobOffers__Heading {
+    margin-bottom: 15px;
+  }
+
+  .JobOffers__Heading--left {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .JobOffers__Heading--right {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .JobOffers__Heading--right img {
+    height: 12px;
+    width: 12px;
+  }
+
+  .JobOffers__Jobs {
+    flex-direction: column;
+  }
+}

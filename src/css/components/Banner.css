@@ -1,0 +1,88 @@
+.Banner {
+  box-sizing: border-box;
+  background-image: url("../../resources/Banner.png");
+  height: 540px;
+  color: #ffffff;
+  font: normal normal 500 48px/68px Gordita, sans-serif;
+  padding: 205px 0 0 140px;
+}
+
+.Banner__Heading {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: 0px;
+}
+
+.Banner__Text {
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0px;
+}
+
+.Banner__Button {
+  display: inline-block;
+  background: transparent linear-gradient(90deg, #266efd 0%, #3876f1 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 3px 17px #3876f194;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  padding: 11px 33px 12px 31px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Banner {
+    height: 440px;
+    padding: 18% 0 0 5%;
+  }
+
+  .Banner__Heading {
+    font-size: 38px;
+    line-height: 58px;
+  }
+
+  .Banner__Text {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0px;
+  }
+
+  .Banner__Button {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 11px 33px 12px 31px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Banner {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Banner {
+    height: 330px;
+    background-size: cover;
+    padding: 35% 0 0 5%;
+  }
+
+  .Banner__Heading {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .Banner__Text {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .Banner__Button {
+    font-size: 14px;
+    line-height: 15px;
+    padding: 11px 33px 12px 31px;
+  }
+}
